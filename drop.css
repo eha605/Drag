@@ -1,0 +1,74 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+body{
+  background-color: #867FFE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+/* inputs */
+.inputs{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.inputs h2{
+  font-size: 32px;
+
+}
+.inputs .data{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 80%;
+}
+.inputs .data #inp,.inputs .data #btn{
+  padding: 4px;
+  outline: none;
+  border: 1.8px solid #867FFE;
+}
+.inputs .data #btn{
+  background-color: #867FFE;
+  cursor: pointer;
+  color:#fff;
+}
+
+/* list */
+.list{
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.list .box{
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 10px;
+  width: 200px;
+  align-items: flex-start;
+}
+.list h2{
+    text-align: center;
+}
+.list .box .item{
+  background-color: #867FFE;
+  margin: 4px;
+  cursor: move;
+  padding: 10px;
+  color: #fff;
+}
